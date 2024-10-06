@@ -14,6 +14,6 @@ namespace Unit5_AdapterPatternPatient_Blazor.InsuranceSystem
 
         string getPatientName();
 
-        string getPolicyNumber();
+        string getPolicyNumber();      
     }
 }

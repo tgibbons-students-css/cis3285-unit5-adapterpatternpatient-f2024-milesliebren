@@ -15,8 +15,8 @@ namespace Unit5_AdapterPatternPatient_Blazor.InsuranceSystem
             patients.Add("A111B222", new InNetworkPatient("Tom Gibbons", "A111B222", PolicyLevels.Gold));
             patients.Add("A222C444", new InNetworkPatient("Jen Rosato", "A222C444", PolicyLevels.Platinum));
             patients.Add("D333B111", new InNetworkPatient("Dave Vosen", "D333B111", PolicyLevels.Silver));
-            
-            //patients.Add("112233", new OutNetworkAdapter("Kathy Modin", 112233));
+
+            patients.Add("112233", new OutNetworkAdapter("Miles Liebren", 112233));
         }
 
         public IEnumerable<InsuranceInterface> getAllPatients()
